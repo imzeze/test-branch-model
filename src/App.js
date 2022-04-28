@@ -1,7 +1,11 @@
+import Navigator from "./Navigator";
+import Router from "./Router";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
+    <div>
+      <Navigator />
+      <Router />
     </div>
   );
 }
